@@ -40,3 +40,30 @@ Aplicativo de e-commerce focado em calçados esportivos. Possui as funcionalidad
 <div align="center">
   <img src="https://github.com/MatheusW166/mega-shoestore/blob/main/refs/palette.png" alt="Cores" />
 </div>
+
+## Rodando localmente
+
+Pré-requisitos: ter o [backend](https://github.com/MatheusW166/mega-shoestore-backend) rodando localmente.
+
+#### Clonando repositório
+
+```bash
+git clone https://github.com/MatheusW166/mega-shoestore.git
+```
+
+#### Configurando .env
+
+- Crie um arquivo .env no seguinte formato:
+
+```
+REACT_APP_API_URL="url do backend"
+```
+
+#### Rodando em modo dev
+
+```bash
+npm install
+npm start
+```
+
+🚀 Divirta-se!
